@@ -20,3 +20,4 @@ Step 18 = ("The folder/file should be shown, if not then refresh")
 
 Extra 1 = ("Rename folder/file in VS code, changes name in local auto")
 Extra 2 = ("Repeat step 4 until end")
+Extra 3 = ("Only 1 change can be commit in github desktop")
