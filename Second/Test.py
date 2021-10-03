@@ -1,0 +1,7 @@
+Step 1 = ("Make codes")
+Step 2 = ("In explorer tab VS code, create new folder for specific task")
+Step 3 = ("Move the current file to the created folder")
+Step 4 = ("Go to source control")
+Step 5 = ("Choose 'SOURCE CONTROL'")
+Step 6 = ("Click the 'thick' button to commit")
+Step 7 = ("Choose BINUSAssignment")
