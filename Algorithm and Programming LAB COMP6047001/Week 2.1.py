@@ -92,7 +92,15 @@ a = integer % 11 == 0
 b = integer % 9 == 0
 c = integer % 7 == 0
 d = integer % 2 == 0
-if(a and b):
+if(a and b and c and d):
+    print("abcd")
+elif(a and b and c):
+    print("abc")
+elif(a and c and d):
+    print("acd")
+elif(b and c and d):
+    print("bcd")
+elif(a and b):
     print("ab")
 elif(a and c):
     print("ac")
