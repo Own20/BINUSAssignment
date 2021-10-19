@@ -72,10 +72,10 @@ d = int(input("Enter a denominator: "))
 
 while(n < 1):
     print("Value must be greater than 0")
-    n = int(input("Re-enter a numerator : "))
+    n = int(input("Re-enter a numerator: "))
 while(d < 1):
     print("Value must be greater than 0")
-    d = int(input("Re-enter a denominator : "))
+    d = int(input("Re-enter a denominator: "))
 
 gcd = math.gcd(n, d)
 
@@ -94,7 +94,7 @@ elif n >= d:
     elif gcd != 1:
         n //= gcd
         d //= gcd
-        print(f"This improper fraction can be reduced to : {n} / {d}")
+        print(f"This improper fraction can be reduced to: {n} / {d}")
     frac = n // d
     r = n % d
     if r != 0:
