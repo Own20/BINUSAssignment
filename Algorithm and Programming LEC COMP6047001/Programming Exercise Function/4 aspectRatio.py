@@ -21,6 +21,7 @@ def calc_new_height():
         he = h / wi                 #current height divided by the result of the divided width
         height = float(he)          #convert data type "height" from int into float
         return height
+    print(" ")
     print(f"The corresponding height is: {height()}")
 
 calc_new_height()
