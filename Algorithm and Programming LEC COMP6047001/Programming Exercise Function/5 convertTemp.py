@@ -24,34 +24,15 @@ The temperature in Fahrenheit is: 80
 The temperature in Celsius is: 26.666666666666668
 The temperature in Kelvin is: 299.81666666666666
 """
-# def convert_temp():             #obtains temperature in fahrenheit
-#     fah = int(input("Enter a temperature in Fahrenheit: "))
-#     return fah
-# Tf = convert_temp()
-
-# def celsius():                  #converts fahrenheit taken above to celcius with formula
-#     Tc = 5 / 9 * (Tf - 32)
-#     return Tc
-# Tc = celsius()
-
-# def kelvin():                   #converts celcius temperatore above to kelvin
-#     Tk = Tc + 273.15
-#     return Tk
-# Tk = kelvin()
-
-# print(f"The temperature in Fahrenheit is: {Tf}")
-# print(f"The temperature in Celcius is: {Tc}")
-# print(f"The temperature in Kelvin is: {Tk}")
-
-def convert_temp():             #obtains temperature in fahrenheit
+def convert_temp():                 #obtains temperature in fahrenheit
     Tf = int(input("Enter a temperature in Fahrenheit: "))
     print(" ")
     print(f"The temperature in Fahrenheit is: {Tf}")
     def celsius():                  #converts fahrenheit taken above to celcius with formula
-        Tc = 5 / 9 * (Tf - 32)
+        return 5 / 9 * (Tf - 32)
     print(f"The temperature in Celcius is: {celsius()}")
     def kelvin():                   #converts celcius temperatore above to kelvin
-        Tk = Tc + 273.15
-        print(f"The temperature in Kelvin is: {kelvin()}")
+        return celsius() + 273.15
+    print(f"The temperature in Kelvin is: {kelvin()}")
 
 convert_temp()
