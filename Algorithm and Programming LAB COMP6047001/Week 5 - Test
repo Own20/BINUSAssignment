@@ -1,0 +1,25 @@
+def convert(k, x):
+    '''
+    convert x from base 10 to base-k, by brute forcing every number
+    '''
+    y=0
+    while x>0:
+        y+=1
+        y=str(y)
+        y = list(y)
+        y.reverse()
+        for i in range(len(y)):
+            if int(y[i])==k:
+                y[i] = '0'
+                if(len(y)-1 == i):
+                    y.append('1')
+                else:
+                    y[i+1] = str(int(y[i+1]) +1) 
+        y.reverse()
+        y = ''.join(y)
+        y = int(y)
+        x-=1
+    return y
+
+print(convert(5, 200))
+
