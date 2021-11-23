@@ -1,0 +1,133 @@
+body {
+    font-family: "Avenir Next";
+}
+
+.header {
+    background-color: #26d0c9;
+    color: #fff;
+    height: 90px;
+}
+
+.main {
+    /* background-color: #bdf7f1;
+    height: 600px; */
+    padding: 100px 80px 100px 80px;
+}
+
+.copy-container h1 {
+    font-size: 140px;
+}
+
+.copy-container span {
+    color: #ff4a4a;
+}
+
+.copy-container h2 {
+    font-size: 60px;
+}
+
+.footer {
+    background-color: #ceccf3;
+    height: 270px;
+}
+
+/*The header-logo and header-list are horizontally aligned*/
+.header-logo {
+    float: left;
+    font-size: 36px;
+    padding: 20px 40px;
+}
+
+/*padding: top right bottom left (Applied clockwise from the top)*/
+/*padding: top+bottom right+left (Applied vertically and horizontally)*/
+/* .logo1 {
+    padding: 20px;
+    padding-top: 20px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding: 20px 10px 20px 10px;
+    padding: 20px 10px;
+} */
+
+/*Apply CSS only to the <li> elements within header-list*/
+/* .header-list li {
+    color: #ff0000;
+} */
+.header-list li {
+    float: left;
+    padding: 33px 20px;
+}
+
+/*<li> unspecified = with bullets*/
+/*<li> specified can be without bullets*/
+/*"float"colon "condition"semicolon elements will be horizontally aligned from the left*/
+
+/*"float: left;" is applied to every single <li> element.*/
+/*"float: left;" is applied to the <li> elements.*/
+li {
+    list-style: none;
+    /* float: left;
+    padding: 33px 20px; */
+}
+
+.contents {
+    height: 500px;
+    margin-top: 100px;
+}
+
+.section-title {
+    border-bottom: 2px solid #dee7ec;
+    font-size: 28px;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.contents-item {
+    float: left;
+    margin-right: 40px;
+}
+
+.contents-item p {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.contact-form {
+    padding-top: 100px;
+}
+
+input, textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+}
+
+.contact-submit {
+    background-color: #dee7ec;
+    color: #889eab;
+}
+
+.footer {
+    /* background-color: #ceccf3; */
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-logo {
+    font-size: 32px;
+    float: left;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    padding-bottom: 20px;
+}
