@@ -1,0 +1,151 @@
+@font-face {
+    font-family: PizzaFont;
+    src: url(PIZZARIA.woff);
+  }
+
+div {
+    font-family: PizzaFont;
+}
+
+
+/* Maincourses button */
+.maincourses {
+    width: 630px;
+    height: 500px;
+    background-image: url(MAINCOURSE.png);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+/*    margin-top: 5%; */
+    cursor: pointer;
+}
+.maincourses p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: PizzaFont;
+    width: 630px;
+    height: 500px;
+    border-radius: 8px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.maincourses p:hover {
+    background-color: rgb(65, 29, 29);
+    color: #ffffff;
+    opacity: .5;
+/*    border: 5px solid #af4c4c; */
+    width: 630px;
+    height: 500px;
+    opacity: .5;
+}
+.maincourses p:active {
+    background-color: #2b0303;
+    color: white;
+}
+
+/* Sidedishes button */
+.sidedishes {
+    width: 630px;
+    height: 500px;
+    background-image: url(SIDEDISH.png);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.sidedishes p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: PizzaFont;
+    width: 630px;
+    height: 500px;
+    border-radius: 8px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.sidedishes p:hover {
+    background-color: rgb(65, 29, 29);
+    color: #ffffff;
+/*    border: 2px solid #4CAF50; */
+    width: 630px;
+    height: 500px;
+    opacity: 0.5;
+}
+.sidedishes p:active {
+    background-color: #2b0303;
+    color: white;
+}
+
+/* Beverages button */
+.beverages {
+    width: 630px;
+    height: 500px;
+    background-image: url(BEVS.png);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    cursor: pointer;
+}
+.beverages p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: PizzaFont;;
+    width: 630px;
+    height: 500px;
+    border-radius: 8px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.beverages p:hover {
+    background-color: rgb(65, 29, 29);
+    color: #ffffff;
+/*   border: 2px solid #4CAF50; */
+    width: 630px;
+    height: 500px;
+    opacity: 0.5;
+}
+.beverages p:active {
+    background-color: #2b0303;
+    color: white;
+}
+
+/* Desserts button */
+.desserts {
+    width: 630px;
+    height: 500px;
+    background-image: url(DESSERT.png);
+    border-radius: 8px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.desserts p {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: PizzaFont;;
+    width: 630px;
+    height: 500px;
+    border-radius: 8px;
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle
+}
+.desserts p:hover {
+    background-color: rgb(65, 29, 29);
+    color: #ffffff;
+/*    border: 2px solid #4CAF50; */
+    width: 630px;
+    height: 500px;
+    opacity: 0.5;
+}
+.desserts p:active {
+    background-color: #2b0303;
+    color: white;
+}
