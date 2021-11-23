@@ -1,0 +1,62 @@
+.chart-wrap {
+    width: 300px;
+    height: 650px;
+    border: 1px solid;
+    margin-left: 50px;
+}
+
+.chart-wrap .title {
+    text-align: center;
+    white-space: nowrap;
+}
+
+.chart-wrap .grid {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0px 5px;
+    border: 1px solid;
+    background: repeating-linear-gradient(90deg, transparent, transparent 19.5%, black 20%);
+}
+
+.chart-wrap .bar {
+    width: var(--bar-value);
+    height: 50px;
+    margin: 30px 0;
+    background-color: red;
+}
+
+.chart-wrap.vertical .grid {
+    transform: translateY(-175px) translateX(175px) rotate(90deg);
+}
+
+.chart-wrap .grid::before {
+    font-size: 0.8em;
+    font-weight: bold;
+    content: "0%";
+    position: absolute;
+    left: -0.5em;
+    top: -1.5em;
+}
+
+.chart-wrap .grid::after {
+    font-size: 0.8em;
+    font-weight: bold;
+    content: "100%";
+    position: absolute;
+    right: -1.5em;
+    top: -1.5em;
+}
+
+.chart-wrap .bar::after {
+    content: attr(data-name);
+    margin-left: 100%;
+    padding: 10px;
+    display: inline-block;
+    white-space: nowrap;
+}
+
+.chart-wrap.vertical .grid .bar::after {
+    transform: translateY(-50%) rotate(60deg);
+    display: block;
+}
