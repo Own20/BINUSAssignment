@@ -1,0 +1,96 @@
+/*indent "color"      colon "the color"semicolon             */
+/*indent "font-size"  colon  "amount"pxsemicolon (px = pixel)*/
+/*indent "font-family"colon "font name"semicolon             */
+
+/* h1 {
+    color: red;
+    font-size: 10px;
+    font-family: serif;
+    background-color: #dddddd;
+} */
+    /* font-size: 40px; */
+    /* background-color: #ddd; */
+
+/* p {
+    color: blue;
+    font-size: 40px;
+    font-family: "Avenir Next";
+    background-color: #ffd800;
+} */
+    /* font-size: 20px; */
+    /* font-family: "Lucida Grande"; */
+
+/* h1 {
+    width: 500px;
+    height: 80px;
+    background-color: #9de8ea;
+} */
+
+/* img {
+    width: 500px;
+    height: 200px;
+} */
+
+/* h1 {
+    color: #e6855e;
+    font-size: 30px;
+    background-color: #f3f372;
+    height: 80px;
+    width: 200px;
+} */
+  
+img {
+    height: 50px;
+    width: 70px;
+}
+
+/*tags <...> don't require period*/
+li {
+    color: red;
+}
+
+/*class selectors require a period at the beginning*/
+/*same class name same css appliead*/
+.selected {
+    color: blue;
+}
+
+li {
+    float: right;
+}
+
+/*CSS is applied only the word within the <span> tag*/
+span {
+    color: #ff0000;
+}
+
+/*"border"colon width/thickness style colorsemicolon*/
+/*adds a border at the bottom of logo2*/
+/* .logo1 {
+    border: 5px solid red;
+}
+
+.logo2 {
+    border-bottom: 1px solid #333;
+} */
+
+/*Adds 10 px of space within the border*/
+/*Adds 20 px of space outside the border*/
+/*margin (space outside) -> border -> padding (space inside) -> heightwidth text*/
+/*margin: top right bottom left / top+bottom right+left*/
+.logo1 {
+    border: 3px solid #ff0000;
+    padding: 10px;
+    margin: 20px;
+    /* margin-top: 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px; */
+    /* margin: 20px 10px 20px 10px; */
+    /* margin: 20px 10px; */
+}
+
+/*group with coma*/
+h1, p {
+    color: #ff0000;
+}
