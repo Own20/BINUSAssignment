@@ -1,0 +1,150 @@
+/* background-image = Displays a background image */
+/* The background repeats itself until it fills the whole page */
+/* background-size: cover; = Fills the background with a single image */
+div {
+    height: 200px;
+    background-image: url(top.png);
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+}
+
+/* margin: 0 auto; = The left & right margins are automatically determined to the center */
+.box {
+    width: 300px;
+    margin: 0 auto;
+}
+
+/* letter-spacing: ...; = Used to specify the space between the letters */
+letter-spacing: 2px;
+letter-spacing: 10px;
+
+btn {
+    /* Common CSS */
+}
+
+.blue {
+    color: blue;
+}
+
+.red {
+    color: red;
+}
+
+/* colon = Styles a <div> when a cursor is on it. */
+div:hover {
+    background-color: red;
+}
+
+/* border-radius: 10px; = Apply round corners with a 10px radius. */
+.box {
+    width: 200px;
+    height: 100px;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+text-align: :left;
+text-align: :center;
+text-align: :right;
+
+.box1 {
+    background-color: rgb(73, 201, 192);
+}
+
+.box2 {
+    background-color: #49c9c0;
+}
+
+/* rgba =  only the background becomes transparent*/
+.rgba-sample {
+    background-color: rgba(84, 190, 238, 0.5);
+}
+/* opacity = the element itself becomes transparent, including everything it contains */
+.opacity-sample {
+    background-color: rgb(84, 190, 238);
+    opacity: 0.5;
+}
+
+/* transition: target duration; */
+div {
+    transition: all 1s;
+}
+
+div:hover {
+    background-color: red;
+}
+
+line-height: 10px;
+line-height: 30px;
+/* line-height = vertically aligns the text in the center */
+.btn {
+    height: 65px;
+    line-height: 65px;
+}
+
+font-weight: normal;
+font-weight: bold;
+
+.child {
+    width: 50%;
+}
+
+/* top-left is used as the reference point from the top-left corner of the page */
+.box1 {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.box2 {
+    position: absolute;
+    top: 120px;
+    left: 140px;
+}
+
+.parent {
+    position: relative;
+}
+.child {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+/* box-shadow: horizontal vertical color; */
+.box {
+    box-shadow: 10px 10px #000;
+}
+.box {
+    box-shadow: 0px 10px #000;
+}
+
+div:active {
+    background-color: red;
+}
+
+/* box-shadow: none; = hides shadow */
+.btn:active {
+    box-shadow: none;
+}
+
+.btn:active {
+    position: relative;
+    top: 7px;
+    left: 10px;
+}
+
+.btn:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.fixed-img {
+    position: fixed;
+    top: 10px;
+    left: 40px;
+}
