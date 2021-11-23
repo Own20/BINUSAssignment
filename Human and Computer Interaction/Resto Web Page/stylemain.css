@@ -1,0 +1,41 @@
+body {
+    background-color: #110707; 
+}
+
+@font-face {
+    font-family: PizzaFont;
+    src: url(PIZZARIA.woff);
+  }
+
+div {
+    font-family: PizzaFont;
+}
+
+.account {
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+i {
+    float: right;
+}
+
+.logo {
+    text-align: center;
+    padding-bottom: 20px
+}
+
+.logo h1 {
+    color: #ffffff;
+    font-size: 100px;
+}
+
+.menuText {
+    text-align: center;
+    padding: 20px
+}
+
+.menuText h1 {
+    color: #ffffff;
+    font-size: 50px;
+}
