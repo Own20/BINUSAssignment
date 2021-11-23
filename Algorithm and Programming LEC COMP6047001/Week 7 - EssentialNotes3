@@ -1,0 +1,97 @@
+#%%
+import os
+
+filename = input("Enter filename: ")
+
+mybuku1 = open(os.getcwd()+'/'+filename,'r') #mac users
+mybuku2 = open(os.getcwd()+"\\"+filename,"r") #win users
+
+myAll = mybuku1.read()
+
+print(myAll)
+#%%
+"""
+Files
+1. Read and Write to files (txt files)
+    a. Reading files - open("","r"), read(), close(), 
+        tell(), read and readline() - returns a string
+                readlines() - returns a list
+    b. writing to files
+        open("","w")
+        write() - arg is string, 
+        writelines() -arg is either list/tuple
+"""
+#%%
+out1 = open("out1.txt","w")
+out2 = open("out2.txt","w")
+
+value1 = ["one","two","three"]
+value2 = ("one\n","two\n","three\n")
+
+out1.writelines(value1)
+out2.writelines(value2)
+
+out1.close()
+out2.close()
+#%%
+inputFile = open("info.txt","r")
+outputFile = open("infa.txt","w")
+
+count=0
+for line in inputFile:
+    count +=1
+    outputFile.write("{:2d}: {}".format(count,line))
+    
+outputFile.close()
+inputFile.close()
+#%%
+outputFile = open("fifo.txt","w")
+a = 1.0
+b = "this"
+c = [12,-14]
+d = ("this",1,3.5)
+
+outputFile.write("{} {} {} {}\n".format(a,b,c,d))
+
+print(a,b,c,d,file=open("fifa.txt","w"))
+
+outputFile.close()
+#%%
+file = open("info.txt","r")
+myList = file.readlines()
+
+count = 0
+for line in myList:
+    count = count + 1
+    print(count,":",line,sep="",end="")
+
+#%%
+file = open("info.txt","r")  
+count = 0
+for line in file: #use file as an iterable
+    count = count + 1
+    print(count,":",line,sep="",end="")
+
+#%%
+file = open("info.txt","r")
+print(file.tell())
+all = file.read()
+print(file.tell())
+file = open("info.txt","r")
+all = file.read()
+print(file.tell())
+#%%
+import os
+
+#specifies the path where the file is located
+os.chdir('/Users/sarwakenturkak')  
+file = open("info.txt","r")
+readAll = file.read()
+print(readAll)
+
+file.close()
+file = open("info.txt","r")
+readAll = file.read()
+
+
+#%%
