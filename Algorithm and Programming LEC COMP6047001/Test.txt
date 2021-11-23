@@ -1,0 +1,13 @@
+1. Read and Write to files (txt files)
+    a. Reading files - 
+        open("", "r"),
+        read(),
+        close(),
+        tell(),
+        seek(),
+        read and readline() - returns a string
+        readlines() - returns a list
+    b. writing to files
+        open("filename", "w")
+        write() - arg is string,
+        writelines() - arg is either list / tuple
