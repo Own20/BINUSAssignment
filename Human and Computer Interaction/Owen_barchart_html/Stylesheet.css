@@ -1,0 +1,399 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Bar Chart */
+.bartitle {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 15%;
+    left: 0%;
+    color: #fff;
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.barbox {
+    position: absolute;
+    top: 20%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    display: flex;
+}
+.barbox .bardesc {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+.barbox .bardesc .bargraph {
+    position: absolute;
+    width: 50px;
+    background: linear-gradient(0deg, #00aeff, #000);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.barbox .bardesc .bargraph .barpercent {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.barbox .bardesc .barname {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* Pie Chart */
+.pietitle {
+    color: #fff;
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 20px;
+    position: absolute;
+    top: 0%;
+    left: 47%;
+}
+.piechartcontainer {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+} 
+.piechart {
+    background: conic-gradient(black 0.00% 61.80%, #00aeff 38.20%);
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+} 
+.pielegend {
+    margin-left: 20px;
+    padding: 20px;
+} 
+.piedesc {
+    display: flex;
+    align-items: center;
+} 
+.piedesccolor {
+    height: 10px;
+    width: 10px;
+}
+.piedesctext {
+    margin-left: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    color: #fff;
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+#black {
+    background-color: black;
+}
+#blue {
+    background-color: #00aeff;
+}
+
+/* Stacked Bar Chart */
+.stacktitle {
+    color: #fff;
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 20px;
+    position: absolute;
+    top: 8%;
+    left: 79%;
+}
+.stackcontainer {
+    display: grid;
+    grid-template-columns: 142.4px 257.6px;
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+}
+.femalepercent {
+    background: black;
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.malepercent {
+    background: #00aeff;
+    color: white;
+    font-size: 12px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Donut Pie Chart */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;  
+}
+.donuttitle {
+    position: absolute;
+    top: 50%;
+    left: 23%;
+    color: #fff;
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.donutcontainer {
+    position: absolute;
+    top: 80%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.donut-chart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 2rem;
+    border-radius: 100%
+}
+p.center {
+    background: white;
+    position: absolute;
+    text-align: center;
+    font-size: 28px;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    border-radius: 50%;
+    line-height: 35px;
+}
+.portion-block {
+    border-radius: 50%;
+    clip: rect(0px, 200px, 200px, 100px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+.circle {
+    border-radius: 50%;
+    clip: rect(0px, 100px, 200px, 0px);
+    height: 100%;
+    position: absolute;
+    width: 100%;
+}
+#part1 {
+    transform: rotate(0deg);
+}
+#part1 .circle {
+    background-color: red;
+    transform: rotate(180deg);
+}
+#part2 {
+    transform: rotate(180deg);
+}
+#part2 .circle {
+    background-color: red;
+    transform: rotate(65.052deg);
+}
+#part3 {
+    transform: rotate(245.052deg);
+}
+#part3 .circle {
+    background-color: orange;
+    transform: rotate(87.732deg);
+}
+#part4 {
+    transform: rotate(332.784deg);
+}
+#part4 .circle {
+    background-color: yellow;
+    transform: rotate(11.556deg);
+}
+#part5 {
+    transform: rotate(344.340deg);
+}
+#part5 .circle {
+    background-color: green;
+    transform: rotate(5.508deg);
+}
+#part6 {
+    transform: rotate(349.848deg);
+}
+#part6 .circle {
+    background-color: blue;
+    transform: rotate(6.048deg);
+}
+#part7 {
+    transform: rotate(355.896deg);
+}
+#part7 .circle {
+    background-color: violet;
+    transform: rotate(1.656deg);
+}
+#part7 {
+    transform: rotate(357.552deg);
+}
+#part7 .circle {
+    background-color: purple;
+    transform: rotate(2.448deg);
+}
+.donutlegend {
+    margin-top: -20px;
+    margin-left: 200px;
+    padding: 20px;
+} 
+.donutdesc {
+    display: flex;
+    align-items: center;
+} 
+.donutdesctext0 {
+    margin-left: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #fff;
+    background: red;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.donutdesctext1 {
+    margin-left: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #fff;
+    background: orange;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.donutdesctext2 {
+    margin-left: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #fff;
+    background: yellow;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.donutdesctext3 {
+    margin-left: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #fff;
+    background: green;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.donutdesctext4 {
+    margin-left: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #fff;
+    background: blue;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.donutdesctext5 {
+    margin-left: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #fff;
+    background: violet;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+.donutdesctext8 {
+    margin-left: 5px;
+    margin-bottom: 1px;
+    margin-top: 1px;
+    color: #fff;
+    background: purple;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* Bar Chart */
+.bartitle1 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 67%;
+    left: 51.4%;
+    color: #fff;
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-size: 20px;
+}
+.barbox1 {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 280px;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    display: flex;
+}
+.barbox1 .bardesc1 {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+.barbox1 .bardesc1 .bargraph1 {
+    position: absolute;
+    width: 20px;
+    background: linear-gradient(0deg, #00aeff, #000);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.barbox1 .bardesc1 .bargraph1 .barpercent1 {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+}
+.barbox1 .bardesc1 .barname1 {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
