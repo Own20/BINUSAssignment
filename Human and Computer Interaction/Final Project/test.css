@@ -1,0 +1,101 @@
+/* #24c7cb
+#464a51
+#f3f4f7 */
+
+@font-face {
+    font-family: Multicolore;
+    src: url(Multicolore\ Pro.woff);
+}
+
+.processor {
+    background-image: url("processor.png");
+    background-size: cover;
+    background-position: center;
+    height: 150px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    line-height: 150px;
+    font-family: Multicolore;
+}
+.processor:hover {
+    color: black;
+    cursor: pointer;
+}
+.processor:active {
+    opacity: 0.5;
+    color: black;
+}
+
+/* .grid-container {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    grid-row-gap: 20px;
+    background-color: #464a51;
+    padding: 20px;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 3.5%;
+}
+
+.grid-container .headline {
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.grid-container .headline .grid-item {
+    background-color: #24c7cb;
+    border: 1px solid #24c7cb;
+    border-radius: 5px;
+    padding: 35px;
+    font-size: 25px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.grid-container .parts {
+    display: grid;
+    grid-template-rows: ;
+}
+
+.grid-container .parts .grid-item {
+    background-color: #24c7cb;
+    border: 1px solid #24c7cb;
+    border-radius: 5px;
+    padding: 35px;
+    font-size: 25px;
+    text-align: left;
+    vertical-align: middle;
+} */
+
+.grid-container {
+    display: grid;
+    background-color: #2196F3;
+    padding: 10px;
+}
+.grid-class1 {
+    display: grid;
+    grid-template-columns: 20% 20% auto 10% 10%;
+    grid-column-gap: 5px;
+}
+.grid-class1 .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 15px;
+    text-align: center;
+}
+.grid-class2 {
+    display: grid;
+    grid-template-columns: 20% 20% auto 10% 10%;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+    margin-top: 10px;
+}
+.grid-class2 .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 20px;
+    text-align: left;
+}
