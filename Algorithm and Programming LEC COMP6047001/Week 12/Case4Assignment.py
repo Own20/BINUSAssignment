@@ -78,16 +78,16 @@ with open(filename) as f:
     for i in dictInterWeekend.keys():
         listAveStepsWeekend.append(round(st.mean(dictInterWeekend.get(i)), 2))
 
-    hist = pygal.Bar()
-    hist.title = "Average Steps across Weekdays and Weekends"
-    hist.x_title = "5 minute intervals"
-    hist.x_labels = listInterval
-    hist.y_title = "Average Steps"
-    hist.add("Weekdays", listAveStepsWeekday)
-    hist.add("Weekends", listAveStepsWeekend)
-    hist.render_to_file('AverageStepsWeekdayWeekend.svg')
+    # hist = pygal.Bar()
+    # hist.title = "Average Steps across Weekdays and Weekends"
+    # hist.x_title = "5 minute intervals"
+    # hist.x_labels = listInterval
+    # hist.y_title = "Average Steps"
+    # hist.add("Weekdays", listAveStepsWeekday)
+    # hist.add("Weekends", listAveStepsWeekend)
+    # hist.render_to_file('AverageStepsWeekdayWeekend.svg')
 
-    # plt.plot(sorted(listInterval), listAveStepsWeekday, label="weekday")
-    # plt.plot(sorted(listInterval), listAveStepsWeekend, label="weekend")
-    # plt.legend()
-    # plt.show()
+    plt.plot(sorted(listInterval), listAveStepsWeekday, label="weekday")
+    plt.plot(sorted(listInterval), listAveStepsWeekend, label="weekend")
+    plt.legend()
+    plt.show()
