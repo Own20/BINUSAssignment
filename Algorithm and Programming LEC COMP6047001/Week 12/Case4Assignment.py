@@ -51,10 +51,10 @@ with open(filename) as f:
         day = row[3]
 
         dictDate.setdefault(str(date),[])
-        dictDate[str(date)].append(int(steps))  #adds steps per day
+        dictDate[str(date)].append(int(steps))
             
         dictInterval.setdefault(interval,[])
-        dictInterval[interval].append(int(steps)) #adds steps per interval
+        dictInterval[interval].append(int(steps))
 
         if day == "Weekday":
             dictInterWeekday.setdefault(interval, [])
