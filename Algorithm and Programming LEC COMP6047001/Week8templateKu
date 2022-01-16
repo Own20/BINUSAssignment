@@ -1,0 +1,29 @@
+#%%
+#class - blueprint for an object
+#object - self governing entity that has both attributes (data) and 
+#operations (methods)
+"""
+Class Description  
+"""
+
+#class definition
+class Xxx:
+    #initializer method - set up an object
+    #self parameter - allows the interpeter to know which 
+    #object it is working with
+    def __init__(self):
+        #creates and initializes instance variables/attributes
+        #private use __varName   
+            
+    #mutator methods - aka setter allow you to update attributes    
+    def setxXx(self,xxx):
+           self.xxx = xxx    
+    #accessor methods - aka getter allows you to retrieve data
+    def getxXx(self):
+        return self.xxx
+    
+    #other methods specific to the Xxx object
+    
+    def __str__(self):
+        return "{}".format(self.getxXx())
+ 
