@@ -1,0 +1,51 @@
+#%%
+#class - blueprint for an object
+#object - self governing entity that has both attributes (data) and 
+#operations (methods)
+"""
+Class Description 
+ 
+"""
+
+#class definition
+class Song:
+    #initializer method - set up an object
+    #self parameter - allows the interpeter to know which 
+    #object it is working with
+    def __init__(self,artist="",title="",genre="",duration=0.0):
+        #creates and initializes instance variables/attributes
+        #private use __varName
+        self.__artist = artist
+        self.__title = title
+        self.__genre = genre
+        self.setDuration(duration)
+            
+    #mutator methods - aka setter allow you to update attributes    
+    def setDuration(self,duration):
+        if(duration > 0):
+            self.__duration = duration
+        else:
+            self.__duration = 0.0  
+    def setArtist(self,artist):
+        self.__artist = artist
+    def setTitle(self,title):
+        self.__title = title
+    def setGenre(self,genre):
+        self.__genre = genre
+    #accessor methods - aka getter allows you to retrieve data
+    def getArtist(self):
+        return self.__artist
+    def getTitle(self):
+        return self.__title
+    def getGenre(self):
+        return self.__genre
+    def getDuration(self):
+        return self.__duration
+    
+    #other methods specific to the Xxx object
+    
+    def __str__(self):
+        return "Artist: {} Title: {} Genre: {} Duration {:.2f}".format(self.getArtist(),self.getTitle(),self.getGenre(), +\
+        self.getDuration())
+ 
+
