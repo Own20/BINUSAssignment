@@ -1,0 +1,358 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(0deg, white, #00aeff, white, #00aeff);
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+    /* background: linear-gradient(0deg, #0039fe, #000105); */
+    /* background: linear-gradient(0deg, white, #00aeff, white, #00aeff); */
+}
+
+.title {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 13%;
+    left: 0%;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.box {
+    position: absolute;
+    top: 20%;
+    left: 17%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    display: flex;
+}
+
+.box .skill {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+.box .skill .graph {
+    position: absolute;
+    width: 20px;
+    /* background: rgba(0, 0, 0, .1); */
+    background: linear-gradient(0deg, #00aeff, #000);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box .skill .graph .percent {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /* color: #fff; */
+    color: #000;
+    font-weight: bold;
+}
+
+.box .skill .name {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+/* .box .skill .graph::before {
+    content: '';
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 0;
+    background: linear-gradient(0deg, #003ba5, #009ffe);
+}
+
+.box .skill .graph::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: rgba(255, 255, 255, .1);
+} */
+
+.title1 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 13%;
+    left: 32%;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.box1 {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    display: flex;
+}
+
+.box1 .skill {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+.box1 .skill .graph {
+    position: absolute;
+    width: 20px;
+    /* background: rgba(0, 0, 0, .1); */
+    background: linear-gradient(0deg, #00aeff, #000);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box1 .skill .graph .percent {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /* color: #fff; */
+    color: #000;
+    font-weight: bold;
+}
+
+.box1 .skill .name {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.title2 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 13%;
+    left: 64.5%;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.box2 {
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 200px;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    display: flex;
+}
+
+.box2 .skill {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+.box2 .skill .graph {
+    position: absolute;
+    width: 20px;
+    /* background: rgba(0, 0, 0, .1); */
+    background: linear-gradient(0deg, #00aeff, #000);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box2 .skill .graph .percent {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /* color: #fff; */
+    color: #000;
+    font-weight: bold;
+}
+
+.box2 .skill .name {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.title3 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 64%;
+    left: 0.4%;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.box3 {
+    position: absolute;
+    top: 70%;
+    left: 24.7%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 280px;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    display: flex;
+}
+
+.box3 .skill {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+.box3 .skill .graph {
+    position: absolute;
+    width: 20px;
+    /* background: rgba(0, 0, 0, .1); */
+    background: linear-gradient(0deg, #00aeff, #000);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box3 .skill .graph .percent {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /* color: #fff; */
+    color: #000;
+    font-weight: bold;
+}
+
+.box3 .skill .name {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.title4 {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 64%;
+    left: 50.5%;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
+
+.box4 {
+    position: absolute;
+    top: 70%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 280px;
+    background: transparent;
+    border-bottom: 2px solid #000;
+    border-left: 2px solid #000;
+    display: flex;
+}
+
+.box4 .skill {
+    position: relative;
+    flex: 1;
+    text-align: center;
+}
+
+.box4 .skill .graph {
+    position: absolute;
+    width: 20px;
+    /* background: rgba(0, 0, 0, .1); */
+    background: linear-gradient(0deg, #00aeff, #000);
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.box4 .skill .graph .percent {
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    /* color: #fff; */
+    color: #000;
+    font-weight: bold;
+}
+
+.box4 .skill .name {
+    position: absolute;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #fff;
+    /* color: #000; */
+    background: #00aeff;
+    padding: 2px 6px;
+    border-radius: 4px;
+}
