@@ -1,0 +1,43 @@
+#class - blueprint for an object
+#object - self governing entity that has both attributes (data) and 
+#operations (methods)
+"""
+Class Description
+Book which contains 3 attributes
+title,author,price  
+"""
+
+#class definition
+class Book:
+    #initializer method - set up an object
+    #self parameter - allows the interpeter to know which 
+    #object it is working with
+    def __init__(self,title="",author="",price=0.0):
+        #creates and initializes instance variables/attributes
+        #private use __varName
+        self.__title = title
+        self.__author = author
+        self.__price = price
+                
+    #mutator methods - aka setter allow you to update attributes    
+    def setTitle(self,title):
+        self.__title = title
+    def setAuthor(self,author):
+        self.__author = author
+    def setPrice(self,price):
+        if price > 0:
+            self.__price = price
+        else:
+            self.__price = 0
+    #accessor methods - aka getter allows you to retrieve data
+    def getTitle(self):
+        return self.__title
+    def getAuthor(self):
+        return self.__author
+    def getprice(self):
+        return self.__price
+    
+    #other methods specific to the Book object
+    
+    def __str__(self):
+        return "Title: {} Author: {} Price: {:,.2f}".format(self.getTitle(), self.getAuthor(), self.getprice())
