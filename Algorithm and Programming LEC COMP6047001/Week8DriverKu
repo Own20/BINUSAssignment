@@ -1,0 +1,18 @@
+#%%
+#import BukuKu
+from BukuKu import Book
+
+b1 = Book("Raging Bulls","Jessica",3.50)
+
+print(b1.__str__())
+
+b2 = Book()
+b2.setTitle("Fade to Black")
+b2.setAuthor("Jisu")
+b2.setPrice(4.50)
+
+#b2.__author = "Alysha"
+b2.setAuthor("Alysha")
+print(b2.__str__())
+
+#%%
