@@ -28,7 +28,7 @@ def start_screen(typetest):
 			break
 
 
-def display_text(typetest, target, current, wpm=0, time=0):
+def type_result_screen(typetest, target, current, wpm=0, time=0):
 	typetest.border()
 	typetest.addstr(1, 28, "              _______             _______                        _______  _______            _______    _______", curses.A_BOLD)
 	typetest.addstr(2, 28, "|         O  |         |       |     |     |\\    |  O  |\\    |  |            |     \\     /  |       |  |", curses.A_BOLD)
@@ -57,7 +57,7 @@ def load_text():
 		return random.choice(lines).strip()
 
 
-def wpm_test(typetest):
+def wpm_time_type_settings(typetest):
 	target_text = load_text()
 	current_text = []
 	wpm = 0
@@ -70,7 +70,7 @@ def wpm_test(typetest):
 		wpm = round((len(current_text) / (time_elapsed / 60)) / 5)
 
 		typetest.clear()
-		display_text(typetest, target_text, current_text, wpm, time_elapsed)
+		type_result_screen(typetest, target_text, current_text, wpm, time_elapsed)
 		typetest.refresh()
 
 		if "".join(current_text) == target_text:
@@ -98,7 +98,7 @@ def main(typetest):
 
 	start_screen(typetest)
 	while True:
-		wpm_test(typetest)
+		wpm_time_type_settings(typetest)
 		typetest.addstr(14, 8, " _______   _______             _______   _______             _______                                   _______      _______             _______")
 		typetest.addstr(15, 8, "|         |       |  |\\    |  |         |       |     /\\        |     |       |  |             /\\         |     O  |       |  |\\    |  |          |")
 		typetest.addstr(16, 8, "|         |       |  | \\   |  |   ___   |_______|    /  \\       |     |       |  |            /  \\        |     |  |       |  | \\   |  |_______   |")
