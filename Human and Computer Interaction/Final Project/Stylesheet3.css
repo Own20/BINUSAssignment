@@ -218,16 +218,17 @@ body {
 .grid-class2 {
     display: grid;
     grid-template-columns: 30% 30% 30%;
-    /* grid-template-rows: 23% 23% 23% 23%; */
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
-    margin-left: 10px;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-left: 40px;
+    margin-bottom: 30px;
 }
 .grid-class2 .grid-item {
     background-color: #24c7cb;
     border-radius: 5px;
     font-family: Multicolore;
     text-align: center;
+    padding-bottom: 50px;
 }
 
 img {
