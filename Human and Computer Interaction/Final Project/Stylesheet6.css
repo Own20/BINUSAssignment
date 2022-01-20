@@ -225,6 +225,7 @@ img {
 .price {
     text-align: right;
     padding-right: 8%;
+    color: #f3f4f7;
 }
 .add {
     font-family: Multicolore;
