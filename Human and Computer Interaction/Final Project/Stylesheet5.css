@@ -189,7 +189,7 @@ body {
 }
 .grid-class1 .grid-item {
     background-color: #464a51;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     border-radius: 5px;
     padding: 20px;
     font-family: Multicolore;
@@ -205,7 +205,7 @@ body {
     grid-row-gap: 30px;
     /* margin-left: 40px; */
     margin-bottom: 30px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .grid-class2 .grid-item {
     background-color: #24c7cb;
