@@ -198,7 +198,7 @@ img {
     grid-template-rows: 23% 23% 23% 23%;
     grid-column-gap: 10px;
     grid-row-gap: 10px; */
-    margin-left: 10px;
+    /* margin-left: 10px; */
     /* border: 1px solid black; */
 }
 .grid-class2 .grid-item {
@@ -220,6 +220,23 @@ img {
     text-align: left;
     line-height: 2;
     padding-left: 8%;
+    margin-bottom: 50px;
+}
+.price {
+    text-align: right;
+    padding-right: 8%;
+}
+.add {
+    font-family: Multicolore;
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-top: 8%;
+    width: 90%;
+    height: 10%;
+    cursor: pointer;
+    background-color: #f3f4f7;
+    border: none;
+    border-radius: 5px;
 }
 
 
