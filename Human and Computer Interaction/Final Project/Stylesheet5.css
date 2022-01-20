@@ -176,18 +176,20 @@ body {
 .grid-container {
     display: grid;
     /* background-color: #2196F3; */
-    grid-template-columns: 30% 70%;
+    grid-template-rows: 2% 30% 2% 30% 2% 30%;
+    row-gap: 50px;
     padding: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .grid-class1 {
     display: grid;
     /* grid-template-rows: 5% 15% 15% 15% 15% 15% 15%; */
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    margin-bottom: 20px;
 }
-/* .grid-class1 .grid-item {
+.grid-class1 .grid-item {
     background-color: #464a51;
-    border: 1px solid white;
+    border: 1px solid black;
     border-radius: 5px;
     padding: 20px;
     font-family: Multicolore;
@@ -195,41 +197,23 @@ body {
     letter-spacing: 1px;
     font-size: 18px;
     text-align: center;
-} */
-/* .grid-class1 .grid-item-filter{
-    background-color: #464a51;
-    border: 1px solid white;
-    border-radius: 5px;
-    padding: 20px;
-    font-family: Multicolore;
-    color: #f3f4f7;
-    letter-spacing: 1px;
-    font-size: 10px;
-    text-align: left;
-} */
-/* .grid-class1 .grid-item-filter .grid-item-filter-type{
-    list-style: square;
-    font-family: Multicolore;
-    font-size: 10px;
-    margin-left: -20px;
-    line-height: 3.5;
-} */
-
+}
 .grid-class2 {
     display: grid;
-    /* grid-template-columns: 24% 24% 24% 24%;
-    grid-template-rows: 23% 23% 23% 23%;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px; */
-    margin-left: 10px;
+    grid-template-columns: 32% 32% 32%;
+    grid-column-gap: 25px;
+    grid-row-gap: 30px;
+    /* margin-left: 40px; */
+    margin-bottom: 30px;
+    border: 1px solid black;
 }
 .grid-class2 .grid-item {
     background-color: #24c7cb;
     border-radius: 5px;
     font-family: Multicolore;
     text-align: center;
+    padding-bottom: 50px;
 }
-
 img {
     width: 150px;
     height: 150px;
@@ -238,21 +222,12 @@ img {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
 .product-title {
     font-size: 12px;
     text-align: middle;
     padding-bottom: 15px;
     font-weight: bold;
     color: #f3f4f7;
-}
-
-.product-desc {
-    font-size: 10px;
-    text-align: middle;
-    line-height: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
 }
 
 
