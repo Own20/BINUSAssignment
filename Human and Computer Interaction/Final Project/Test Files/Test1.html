@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf=8">
+        <title>BOTRECOMMEND</title>
+        <link rel="stylesheet" href="Test1.css">
+        <script src="https://kit.fontawesome.com/bf02101a5e.js" crossorigin="anonymous"></script>
+        <script src="Test1.js"></script>
+    </head>
+
+    <header>
+        <hr class="line">
+
+        <!-- <img src="pc.jpg"> -->
+        <i class="fas fa-desktop"></i>
+        <h1 class="pc">PC</h1>
+        <h1 class="bot">BOT</h1>
+
+        <ul>
+            <!-- <li class="profile">profile</li> -->
+            <button class="fas fa-user"></button>
+            <!-- <li class="search">search</li> -->
+            <button class="fas fa-search"></button>
+        </ul>
+
+        <!-- <hr class="line1"> -->
+    </header>
+
+    <body>
+        <h2>Popup Form</h2>
+        <p>Click on the button at the bottom of this page to open the login form.</p>
+        <p>Note that the button and the form is fixed - they will always be positioned to the bottom of the browser window.</p>
+
+        <button class="open-button" onclick="openForm()">Open Form</button>
+
+        <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+                <h1>Login</h1>
+
+                <label for="email"><b>Email</b></label>
+                <input type="text" placeholder="Enter Email" name="email" required>
+
+                <label for="psw"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="psw" required>
+
+                <button type="submit" class="btn">Login</button>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+            </form>
+        </div>
+    </body>
