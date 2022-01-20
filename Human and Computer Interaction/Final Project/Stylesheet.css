@@ -10,20 +10,20 @@ header {
     margin-left: -8px;
 }
 hr.line {
+    border-bottom: 2px solid #24c7cb;
+    border-right: 1px solid #24c7cb;
     border-top: 10px solid #24c7cb;
-    width: 10.3%;
     margin-left: -10px;
     margin-top: -18px;
     position: relative;
-    border-bottom: 2px solid #24c7cb;
-    border-right: 1px solid #24c7cb;
+    width: 10.3%;
 }
 .fa-desktop {
-    font-size: 70px;
-    float: left;
     color: #f3f4f7;
-    margin-top: 13px;
+    float: left;
+    font-size: 70px;
     margin-left: 25px;
+    margin-top: 13px;
 }
 .pc {
     font-family: Multicolore;
@@ -45,6 +45,7 @@ hr.line {
     padding: 2px;
     border-radius: 5px;
 }
+
 .fa-user {
     color: #f3f4f7;
     background-color: #24c7cb;
@@ -67,6 +68,7 @@ hr.line {
 .fa-user:active {
     opacity: 0.2;
 }
+
 .fa-search {
     color: #464a51;
     background-color: #24c7cb;
@@ -89,6 +91,7 @@ hr.line {
 .fa-search:active {
     opacity: 0.5;
 }
+
 hr.line1 {
     border-top: 10px solid #24c7cb;
     width: 101.3%;
