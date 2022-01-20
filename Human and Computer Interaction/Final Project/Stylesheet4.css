@@ -190,12 +190,15 @@ body {
 .form .form-container .login {
     font-size: 20px;
     text-align: center;
+    color: #464a51;
 }
 .form .form-container .email {
     font-size: 15px;
+    color: #464a51;
 }
 .form .form-container .password {
     font-size: 15px;
+    color: #464a51;
 }
   /* Full-width input fields */
 .form-container input[type=text], .form-container input[type=password] {
