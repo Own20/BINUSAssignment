@@ -6,11 +6,9 @@
 header {
     background-color: #24c7cb;
     width: 100.6%;
-    /* height: 130px; */
     height: 134px;
     margin-left: -8px;
 }
-
 hr.line {
     border-top: 10px solid #24c7cb;
     width: 10.3%;
@@ -20,14 +18,6 @@ hr.line {
     border-bottom: 2px solid #24c7cb;
     border-right: 1px solid #24c7cb;
 }
-
-/* img {
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin-top: -4px;
-} */
-
 .fa-desktop {
     font-size: 70px;
     float: left;
@@ -35,7 +25,6 @@ hr.line {
     margin-top: 13px;
     margin-left: 25px;
 }
-
 .pc {
     font-family: Multicolore;
     font-size: 75px;
@@ -46,7 +35,6 @@ hr.line {
     padding: 2px;
     border-radius: 5px;
 }
-
 .bot {
     font-family: Multicolore;
     font-size: 75px;
@@ -57,26 +45,6 @@ hr.line {
     padding: 2px;
     border-radius: 5px;
 }
-
-/* .profile {
-    font-family: Multicolore;
-    color: #464a51;
-    float: right;
-    list-style: none;
-    margin-top: -18px;
-    margin-right: -2px;
-    border: 2px solid #f3f4f7;
-    padding: 50px 50px;
-} */
-
-/* .profile:hover {
-    background-color: #464a51;
-    color: #f3f4f7;
-    border: 2px solid #464a51;
-    display: inline-block;
-    transition-duration: 0.1s;
-    cursor: pointer;
-} */
 
 .fa-user {
     color: #f3f4f7;
@@ -89,7 +57,6 @@ hr.line {
     padding: 45px 45px;
     font-size: 30px;
 }
-
 .fa-user:hover {
     background-color: #464a51;
     color: #f3f4f7;
@@ -98,30 +65,9 @@ hr.line {
     transition-duration: 0.1s;
     cursor: pointer;
 }
-
 .fa-user:active {
     opacity: 0.2;
 }
-
-/* .search {
-    font-family: Multicolore;
-    color: #24c7cb;
-    float: right;
-    list-style: none;
-    margin-top: -18px;
-    margin-right: -10px;
-    border: 2px solid #f3f4f7;
-    padding: 50px 50px;
-} */
-
-/* .search:hover {
-    background-color: #24c7cb;
-    color: #f3f4f7;
-    border: 2px solid #24c7cb;
-    display: inline-block;
-    transition-duration: 0.1s;
-    cursor: pointer;
-} */
 
 .fa-search {
     color: #464a51;
@@ -134,7 +80,6 @@ hr.line {
     padding: 45px 45px;
     font-size: 30px;
 }
-
 .fa-search:hover {
     background-color: #464a51;
     color: #f3f4f7;
@@ -143,7 +88,6 @@ hr.line {
     transition-duration: 0.1s;
     cursor: pointer;
 }
-
 .fa-search:active {
     opacity: 0.5;
 }
@@ -161,7 +105,6 @@ hr.line1 {
 body {
     background-color: #f3f4f7;
 }
-
 .build {
     font-family: Multicolore;
     font-size: 50px;
@@ -169,21 +112,15 @@ body {
     letter-spacing: 10px;
     color: #24c7cb;
     border-radius: 5px;
-    /* background-color: #464a51;
-    border: 2px solid#24c7cb; */
 }
-
 .grid-container {
     display: grid;
-    /* background-color: #2196F3; */
     grid-template-columns: 20% 80%;
     padding: 10px;
-    /* border: 1px solid black; */
 }
 .grid-class1 {
     display: grid;
     grid-template-rows: 5% 15% 15% 15% 15% 15% 15%;
-    /* border: 1px solid black; */
 }
 .grid-class1 .grid-item {
     background-color: #464a51;
@@ -229,7 +166,6 @@ body {
     font-family: Multicolore;
     text-align: center;
 }
-
 img {
     width: 150px;
     height: 150px;
@@ -238,7 +174,6 @@ img {
     margin-right: 20px;
     margin-bottom: 20px;
 }
-
 .product-title {
     font-size: 12px;
     text-align: middle;
@@ -246,7 +181,6 @@ img {
     font-weight: bold;
     color: #f3f4f7;
 }
-
 .product-desc {
     font-size: 10px;
     text-align: middle;
@@ -262,7 +196,6 @@ footer {
     height: 200px;
     margin-left: -8px;
 }
-
 hr.line2 {
     border-top: 10px solid #464a51;
     width: 100.6%;
@@ -272,7 +205,6 @@ hr.line2 {
     border-bottom: 1px solid #464a51;
     border-right: 1px solid #464a51;
 }
-
 .logo .fa-desktop {
     font-size: 70px;
     float: left;
@@ -281,7 +213,6 @@ hr.line2 {
     margin-left: 30px;
     margin-right: 10px;
 }
-
 .desc1 {
     font-family: Multicolore;
     font-size: 10px;
@@ -298,13 +229,11 @@ hr.line2 {
 .directs {
     color: #24c7cb;
 }
-
 .directs ul{
     list-style: none;
     float: left;
     margin-top: -20px;
 }
-
 .directs .features1 ul{
     font-family: Multicolore;
     font-size: 10px;
@@ -314,9 +243,6 @@ hr.line2 {
     line-height: 3.5;
 }
 
-/* .directs .features1 .builder1 {
-    border: 1px solid #f3f4f7;
-} */
 .directs .features1 .builder1:hover {
     cursor: pointer;
     color: #f3f4f7;
@@ -325,9 +251,6 @@ hr.line2 {
     opacity: 0.5;
 }
 
-/* .directs .features1 .list1 {
-    margin-bottom: 30px;
-} */
 .directs .features1 .list1:hover {
     cursor: pointer;
     color: #f3f4f7;
@@ -336,9 +259,6 @@ hr.line2 {
     opacity: 0.5;
 }
 
-/* .directs .features1 .recommend1 {
-    margin-bottom: 30px;
-} */
 .directs .features1 .recommend1:hover {
     cursor: pointer;
     color: #f3f4f7;
@@ -355,10 +275,6 @@ hr.line2 {
     letter-spacing: 1px;
     line-height: 3.5;
 }
-
-/* .directs .menu .home {
-    margin-bottom: 20px;
-} */
 .directs .menu .home:hover {
     cursor: pointer;
     color: #f3f4f7;
@@ -367,9 +283,6 @@ hr.line2 {
     opacity: 0.5;
 }
 
-/* .directs .menu .about {
-    margin-bottom: 20px;
-} */
 .directs .menu .about:hover {
     cursor: pointer;
     color: #f3f4f7;
@@ -378,9 +291,6 @@ hr.line2 {
     opacity: 0.5;
 }
 
-/* .directs .menu .terms {
-    margin-bottom: 20px;
-} */
 .directs .menu .terms:hover {
     cursor: pointer;
     color: #f3f4f7;
@@ -389,9 +299,6 @@ hr.line2 {
     opacity: 0.5;
 }
 
-/* .directs .menu .priv {
-    margin-bottom: 20px;
-} */
 .directs .menu .priv:hover {
     cursor: pointer;
     color: #f3f4f7;
@@ -409,11 +316,6 @@ hr.line2 {
     word-wrap: break-word;
     font-size: 30px;
 }
-
-/* .contacts .first {
-    margin-bottom: 30px;
-} */
-
 .contacts .fa-facebook-f {
     margin-right: 30px;
 }
