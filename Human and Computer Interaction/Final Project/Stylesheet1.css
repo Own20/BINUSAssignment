@@ -228,6 +228,7 @@ body {
     border-radius: 5px;
     font-family: Multicolore;
     text-align: center;
+    padding-bottom: 27px;
 }
 
 img {
@@ -245,12 +246,15 @@ img {
     padding-bottom: 15px;
     font-weight: bold;
     color: #f3f4f7;
+    text-decoration: none;
 }
 
 .product-desc {
     font-size: 10px;
     text-align: middle;
     line-height: 15px;
+    text-decoration: none;
+    color: #464a51;
 }
 
 
