@@ -207,6 +207,7 @@ body {
     padding: 20px;
     background-color: #24c7cb;
     border-radius: 5px;
+    color: #464a51;
 }
 .container .features .builder:hover {
     cursor: pointer;
@@ -223,6 +224,7 @@ body {
     padding: 20px;
     background-color: #24c7cb;
     border-radius: 5px;
+    color: #464a51;
 }
 .container .features .list:hover {
     cursor: pointer;
@@ -238,6 +240,7 @@ body {
     padding: 20px;
     background-color: #24c7cb;
     border-radius: 5px;
+    color: #464a51;
 }
 .container .features .recommend:hover {
     cursor: pointer;
