@@ -1,14 +1,30 @@
-# Final Project: LightningType
+# Final Project: PCBOT
 
-By: Christopher Owen / 2502019180 / L1BC
+[NameIsNotAvailable] - L1BC
+Christopher Owen        / 2502019180
+Sandrian Gibran Wardana / 2502016411
 
+HTML File:
+Index Welcome
+Index0 BotBuilder
+Index1 ListProductsProcessor
+Index2 ListProductsMotherboard
+Index3 BotRecommend
+Index4 LogIn
+Index5 ListProducts
+Index6 ProductDetails
+Index7 PCDetails
 
-Video Demo      : Final Project Demo.mp4
+Stylesheet File:
+Stylesheet
+Stylesheet0
+Stylesheet1
+Stylesheet2
+Stylesheet3
+Stylesheet4
+Stylesheet5
+Stylesheet6
+Stylesheet7
 
-Report          : Final Project Report.pdf
-
-Source Code     : TypingTestOff.py
-
-Additional File : Text.txt
-
-Trial and Error : Trial Files (Folder)
+Supporting Documents:
+Final Project Test Case.pdf
